@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: myspeech
+    username: myspeech
+    url: jdbc:mysql://localhost:3306/myspeech
+logging:
+ level:
+  root: warn
+  '[com.promineotech]': debug
